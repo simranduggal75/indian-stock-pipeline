@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1Nj41b-9JOspwj0uK5-BY898qimCwIUqd
 """
 
-!pip install yfinance pandas streamlit sqlalchemy
 
 #Imports
 import yfinance as yf
