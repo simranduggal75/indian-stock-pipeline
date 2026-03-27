@@ -83,6 +83,21 @@ def predict_stock(data, stock_name):
     for n, s in sentiments:
         print(f"{n} → {s}")
 
+    # AI INSIGHTS 
+
+    positive_count = sum(1 for _, s in sentiments if s == "Positive")
+    negative_count = sum(1 for _, s in sentiments if s == "Negative")
+
+    trend = "upward" if stock_data["MA_5"].iloc[-1] > stock_data["MA_10"].iloc[-1] else "downward"
+
+    print("\n🤖 AI Insight:")
+
+    if positive_count > negative_count and trend == "upward":
+      print("Stock shows a positive outlook due to strong sentiment and upward trend.")
+    elif negative_count > positive_count and trend == "downward":
+      print("Stock may decline due to negative sentiment and downward trend.")
+    else:
+       print("Stock shows mixed signals. Further analysis recommended.")
     
     # SAVE DATA 
     
