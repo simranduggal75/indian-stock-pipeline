@@ -29,12 +29,11 @@ It fetches real-time stock data, processes it, predicts future prices, analyzes 
 - 🧩 **AI Insights (Decision Layer)**
   - Combines sentiment + trend indicators
   - Generates human-readable insights:
-    > “Stock shows positive outlook due to strong sentiment and upward trend”
+     "Stock shows positive outlook due to strong sentiment and upward trend"
 
 
 ## 📂 Project Structure
 
-```
 
 ai-stock-insight-engine/
 │
@@ -45,9 +44,6 @@ ai-stock-insight-engine/
 ├── data/                   # Generated CSV files (ignored)
 └── analysis.py             #  experimentation
 
-````
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -68,7 +64,7 @@ python main.py
 
 ## 📊 Sample Output
 
-```
+
 🔍 Processing RELIANCE.NS...
 📊 Model MAE: 45.23
 
