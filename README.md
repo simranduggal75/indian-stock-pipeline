@@ -36,12 +36,17 @@ It fetches real-time stock data, processes it, predicts future prices, analyzes 
 
 
 ai-stock-insight-engine/
-│
+
 ├── main.py                 # Main pipeline script
+
 ├── sentiment.py            # Sentiment analysis module
+
 ├── requirements.txt        # Dependencies
+
 ├── README.md               # Project documentation
+
 ├── data/                   # Generated CSV files (ignored)
+
 └── analysis.py             #  experimentation
 
 
@@ -50,6 +55,7 @@ ai-stock-insight-engine/
 ### 1. Clone the repository
 
 git clone https://github.com/simranduggal75/ai-stock-insight-engine.git
+
 cd ai-stock-insight-engine
 
 
