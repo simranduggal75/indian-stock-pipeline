@@ -6,6 +6,17 @@ This project is an end-to-end stock analysis pipeline that combines **Machine Le
 It fetches real-time stock data, processes it, predicts future prices, analyzes news sentiment, and provides **interpretable AI-driven insights**.
 
 
+# 🛠️ Tech Stack
+
+- **Programming Language:** Python
+- **Artificial Intelligence / Machine Learning:** Scikit-learn
+- **Data Analysis:** Pandas, NumPy
+- **Financial Data Processing:** Yahoo Finance API
+- **Visualization & Insights:** Matplotlib, Seaborn
+- **Backend Framework:** FastAPI
+- **Deployment / Hosting:** Render
+- **Version Control:** Git, GitHub
+
 ## 🧠 Key Features
 
 - 📊 **Stock Data Pipeline**
