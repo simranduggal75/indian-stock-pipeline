@@ -13,7 +13,7 @@ It fetches real-time stock data, processes it, predicts future prices, analyzes 
 ## Live Demo Note
 
 The application is deployed on Render's free tier.  
-If inactive, the server may take 30–60 seconds to wake up on the first request.
+If inactive, the server may take 1–2 minutes to wake up on the first request.
 
 
 # 🛠️ Tech Stack
@@ -68,7 +68,7 @@ ai-stock-insight-engine/
 
 ├── data/                   # Generated CSV files (ignored)
 
-└── analysis.py             #  experimentation
+└── screenshots/            #  Screenshots folder
 
 
 ## ⚙️ Installation & Setup
