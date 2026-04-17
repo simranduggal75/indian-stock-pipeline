@@ -37,9 +37,9 @@ matplotlib==3.10.8
 multitasking==0.0.12
 narwhals==2.18.0
 nltk==3.9.4
-numpy==2.3.3
+numpy==2.4.4
 packaging==26.0
-pandas==2.3.2
+pandas==3.0.2
 peewee==4.0.2
 pillow==12.1.1
 platformdirs==4.9.4
