@@ -3,4 +3,5 @@ uvicorn
 pydantic
 yfinance
 requests
+matplolib
 textblob
