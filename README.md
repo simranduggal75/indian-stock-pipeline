@@ -6,6 +6,16 @@ This project is an end-to-end stock analysis pipeline that combines **Machine Le
 It fetches real-time stock data, processes it, predicts future prices, analyzes news sentiment, and provides **interpretable AI-driven insights**.
 
 
+## Live Demo
+
+🔗 https://ai-stock-insight-engine.onrender.com
+
+## Live Demo Note
+
+The application is deployed on Render's free tier.  
+If inactive, the server may take 30–60 seconds to wake up on the first request.
+
+
 # 🛠️ Tech Stack
 
 - **Programming Language:** Python
